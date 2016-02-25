@@ -78,7 +78,7 @@ class Header extends Component {
                   <Link to="/">{info[getLocale()].home}</Link>
                 </li>
                 <li className={styles.item}>
-                  {info[getLocale()].schedule}
+                  <Link to="schedules">{info[getLocale()].schedule}</Link>
                 </li>
                 <li className={styles.item}>
                   <Link to="speakers">{info[getLocale()].speakers}</Link>
